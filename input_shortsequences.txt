@@ -1,0 +1,5 @@
+S1 = GTGAct
+S2 = GTGaCc
+S3 = ATcCa
+S4 = CTGAcc
+S5 = AgtCca

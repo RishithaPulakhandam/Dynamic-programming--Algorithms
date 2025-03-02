@@ -1,0 +1,4 @@
+S1 = hgtca
+S2 = jHAGCT
+S3 =
+S4 = hGTCA

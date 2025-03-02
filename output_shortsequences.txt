@@ -1,0 +1,203 @@
+Dynamic Programming Results:
+Between S1 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGACT', S2='GTGACC'
+  LCS (DP): 'GTGAC' Length=5 Time Taken: 0.000059s Comparisons=36
+
+Between S1 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGACT', S3='ATCCA'
+  LCS (DP): 'AT' Length=2 Time Taken: 0.000024s Comparisons=30
+
+Between S1 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGACT', S4='CTGACC'
+  LCS (DP): 'TGAC' Length=4 Time Taken: 0.000021s Comparisons=36
+
+Between S1 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGACT', S5='AGTCCA'
+  LCS (DP): 'GTC' Length=3 Time Taken: 0.000019s Comparisons=36
+
+Between S2 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S2='GTGACC', S1='GTGACT'
+  LCS (DP): 'GTGAC' Length=5 Time Taken: 0.000019s Comparisons=36
+
+Between S2 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S2='GTGACC', S3='ATCCA'
+  LCS (DP): 'ACC' Length=3 Time Taken: 0.000015s Comparisons=30
+
+Between S2 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S2='GTGACC', S4='CTGACC'
+  LCS (DP): 'TGACC' Length=5 Time Taken: 0.000018s Comparisons=36
+
+Between S2 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S2='GTGACC', S5='AGTCCA'
+  LCS (DP): 'GTCC' Length=4 Time Taken: 0.000018s Comparisons=36
+
+Between S3 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S3='ATCCA', S1='GTGACT'
+  LCS (DP): 'TA' Length=2 Time Taken: 0.000016s Comparisons=30
+
+Between S3 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S3='ATCCA', S2='GTGACC'
+  LCS (DP): 'TCC' Length=3 Time Taken: 0.000016s Comparisons=30
+
+Between S3 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S3='ATCCA', S4='CTGACC'
+  LCS (DP): 'TCC' Length=3 Time Taken: 0.000015s Comparisons=30
+
+Between S3 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S3='ATCCA', S5='AGTCCA'
+  LCS (DP): 'ATCCA' Length=5 Time Taken: 0.000015s Comparisons=30
+
+Between S4 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S4='CTGACC', S1='GTGACT'
+  LCS (DP): 'TGAC' Length=4 Time Taken: 0.000018s Comparisons=36
+
+Between S4 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S4='CTGACC', S2='GTGACC'
+  LCS (DP): 'TGACC' Length=5 Time Taken: 0.000018s Comparisons=36
+
+Between S4 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S4='CTGACC', S3='ATCCA'
+  LCS (DP): 'ACC' Length=3 Time Taken: 0.000015s Comparisons=30
+
+Between S4 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S4='CTGACC', S5='AGTCCA'
+  LCS (DP): 'ACC' Length=3 Time Taken: 0.000018s Comparisons=36
+
+Between S5 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S5='AGTCCA', S1='GTGACT'
+  LCS (DP): 'GTA' Length=3 Time Taken: 0.000018s Comparisons=36
+
+Between S5 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S5='AGTCCA', S2='GTGACC'
+  LCS (DP): 'GTCC' Length=4 Time Taken: 0.000018s Comparisons=36
+
+Between S5 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S5='AGTCCA', S3='ATCCA'
+  LCS (DP): 'ATCCA' Length=5 Time Taken: 0.000016s Comparisons=30
+
+Between S5 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S5='AGTCCA', S4='CTGACC'
+  LCS (DP): 'TCC' Length=3 Time Taken: 0.000018s Comparisons=36
+
+
+Brute Force Results:
+Between S1 & S2:
+  Original Sequences: S1='GTGACT', S2='GTGACC'
+  Method: Brute Force
+  LCS (BF): 'GTGAC' Length=5 Time=0.000080s Comparisons=7
+
+Between S1 & S3:
+  Original Sequences: S1='GTGACT', S3='ATCCA'
+  Method: Brute Force
+  LCS (BF): 'TA' Length=2 Time=0.000072s Comparisons=8
+
+Between S1 & S4:
+  Original Sequences: S1='GTGACT', S4='CTGACC'
+  Method: Brute Force
+  LCS (BF): 'TGAC' Length=4 Time=0.000080s Comparisons=7
+
+Between S1 & S5:
+  Original Sequences: S1='GTGACT', S5='AGTCCA'
+  Method: Brute Force
+  LCS (BF): 'GTA' Length=3 Time=0.000080s Comparisons=8
+
+Between S2 & S1:
+  Original Sequences: S2='GTGACC', S1='GTGACT'
+  Method: Brute Force
+  LCS (BF): 'GTGAC' Length=5 Time=0.000066s Comparisons=7
+
+Between S2 & S3:
+  Original Sequences: S2='GTGACC', S3='ATCCA'
+  Method: Brute Force
+  LCS (BF): 'TCC' Length=3 Time=0.000050s Comparisons=7
+
+Between S2 & S4:
+  Original Sequences: S2='GTGACC', S4='CTGACC'
+  Method: Brute Force
+  LCS (BF): 'TGACC' Length=5 Time=0.000005s Comparisons=6
+
+Between S2 & S5:
+  Original Sequences: S2='GTGACC', S5='AGTCCA'
+  Method: Brute Force
+  LCS (BF): 'GTCC' Length=4 Time=0.000053s Comparisons=7
+
+Between S3 & S1:
+  Original Sequences: S3='ATCCA', S1='GTGACT'
+  Method: Brute Force
+  LCS (BF): 'AT' Length=2 Time=0.000058s Comparisons=6
+
+Between S3 & S2:
+  Original Sequences: S3='ATCCA', S2='GTGACC'
+  Method: Brute Force
+  LCS (BF): 'ACC' Length=3 Time=0.000041s Comparisons=5
+
+Between S3 & S4:
+  Original Sequences: S3='ATCCA', S4='CTGACC'
+  Method: Brute Force
+  LCS (BF): 'ACC' Length=3 Time=0.000033s Comparisons=5
+
+Between S3 & S5:
+  Original Sequences: S3='ATCCA', S5='AGTCCA'
+  Method: Brute Force
+  LCS (BF): 'ATCCA' Length=5 Time=0.000004s Comparisons=6
+
+Between S4 & S1:
+  Original Sequences: S4='CTGACC', S1='GTGACT'
+  Method: Brute Force
+  LCS (BF): 'TGAC' Length=4 Time=0.000066s Comparisons=7
+
+Between S4 & S2:
+  Original Sequences: S4='CTGACC', S2='GTGACC'
+  Method: Brute Force
+  LCS (BF): 'TGACC' Length=5 Time=0.000004s Comparisons=6
+
+Between S4 & S3:
+  Original Sequences: S4='CTGACC', S3='ATCCA'
+  Method: Brute Force
+  LCS (BF): 'TCC' Length=3 Time=0.000034s Comparisons=7
+
+Between S4 & S5:
+  Original Sequences: S4='CTGACC', S5='AGTCCA'
+  Method: Brute Force
+  LCS (BF): 'TCC' Length=3 Time=0.000042s Comparisons=7
+
+Between S5 & S1:
+  Original Sequences: S5='AGTCCA', S1='GTGACT'
+  Method: Brute Force
+  LCS (BF): 'GTC' Length=3 Time=0.000066s Comparisons=8
+
+Between S5 & S2:
+  Original Sequences: S5='AGTCCA', S2='GTGACC'
+  Method: Brute Force
+  LCS (BF): 'GTCC' Length=4 Time=0.000042s Comparisons=7
+
+Between S5 & S3:
+  Original Sequences: S5='AGTCCA', S3='ATCCA'
+  Method: Brute Force
+  LCS (BF): 'ATCCA' Length=5 Time=0.000004s Comparisons=6
+
+Between S5 & S4:
+  Original Sequences: S5='AGTCCA', S4='CTGACC'
+  Method: Brute Force
+  LCS (BF): 'ACC' Length=3 Time=0.000042s Comparisons=6
+

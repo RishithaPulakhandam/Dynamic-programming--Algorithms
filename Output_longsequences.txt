@@ -1,0 +1,273 @@
+Dynamic Programming Results:
+Between S1 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  LCS (DP): 'ATTATGGGGTCTCTTATC' Length=18 Time Taken: 0.000393s Comparisons=899
+
+Between S1 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  LCS (DP): 'TTAATTATGGCCCTTCAATTTT' Length=22 Time Taken: 0.000478s Comparisons=1240
+
+Between S1 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  LCS (DP): 'GGTATTGCTATAATTTATC' Length=19 Time Taken: 0.000383s Comparisons=992
+
+Between S1 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  LCS (DP): 'TGTTTGAGGGGAAC' Length=14 Time Taken: 0.000306s Comparisons=775
+
+Between S1 & S6:
+  Method: Dynamic Programming
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  LCS (DP): 'GTGATTGTGGCCTCATCAAC' Length=20 Time Taken: 0.000419s Comparisons=1085
+
+Between S2 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  LCS (DP): 'TTAAGGGGGCCCTCATCT' Length=18 Time Taken: 0.000348s Comparisons=899
+
+Between S2 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  LCS (DP): 'TCATATGTGCCTCGTATTG' Length=19 Time Taken: 0.000481s Comparisons=1160
+
+Between S2 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  LCS (DP): 'ATTCATATGTCTGTGCATG' Length=19 Time Taken: 0.000359s Comparisons=928
+
+Between S2 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  LCS (DP): 'ATTATACGGGGGGGAC' Length=16 Time Taken: 0.000281s Comparisons=725
+
+Between S2 & S6:
+  Method: Dynamic Programming
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  LCS (DP): 'ACTGGTGTGCCTGTGCATCG' Length=20 Time Taken: 0.000392s Comparisons=1015
+
+Between S3 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  LCS (DP): 'TTAATTGATGCCCTCATATTTA' Length=22 Time Taken: 0.000471s Comparisons=1240
+
+Between S3 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  LCS (DP): 'ATTATATTGCTTCGTGTTG' Length=19 Time Taken: 0.000458s Comparisons=1160
+
+Between S3 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  LCS (DP): 'ATTTAATGATTGACTGATGA' Length=20 Time Taken: 0.000485s Comparisons=1280
+
+Between S3 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  LCS (DP): 'TAGTTTGACCGGGGGAA' Length=17 Time Taken: 0.000390s Comparisons=1000
+
+Between S3 & S6:
+  Method: Dynamic Programming
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  LCS (DP): 'AGTATTGCCCCAAGGGTAA' Length=19 Time Taken: 0.000454s Comparisons=1400
+
+Between S4 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  LCS (DP): 'GGTAATTGATCTCTCATAC' Length=19 Time Taken: 0.000310s Comparisons=992
+
+Between S4 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  LCS (DP): 'ATTCATATGTCTCTCTGAC' Length=19 Time Taken: 0.000293s Comparisons=928
+
+Between S4 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  LCS (DP): 'TCTAAAAGATTGACTCATGA' Length=20 Time Taken: 0.000396s Comparisons=1280
+
+Between S4 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  LCS (DP): 'AGGGTTATGACGCAGAC' Length=17 Time Taken: 0.000254s Comparisons=800
+
+Between S4 & S6:
+  Method: Dynamic Programming
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  LCS (DP): 'AGTATTCTAAAGTCGATCAAC' Length=21 Time Taken: 0.000356s Comparisons=1120
+
+Between S5 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  LCS (DP): 'GTTATGAGGGGAAC' Length=14 Time Taken: 0.000244s Comparisons=775
+
+Between S5 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  LCS (DP): 'ATTATACGGGGGGGAC' Length=16 Time Taken: 0.000230s Comparisons=725
+
+Between S5 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  LCS (DP): 'TATTATGACCCGAGGGA' Length=17 Time Taken: 0.000315s Comparisons=1000
+
+Between S5 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  LCS (DP): 'AGGTTATGACGCGAGAC' Length=17 Time Taken: 0.000252s Comparisons=800
+
+Between S5 & S6:
+  Method: Dynamic Programming
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  LCS (DP): 'AGGGATCGCGGAGGGAC' Length=17 Time Taken: 0.000274s Comparisons=875
+
+Between S6 & S1:
+  Method: Dynamic Programming
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  LCS (DP): 'GTGATTGTGGCCTCATCAAC' Length=20 Time Taken: 0.000346s Comparisons=1085
+
+Between S6 & S2:
+  Method: Dynamic Programming
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  LCS (DP): 'ATTTCGTGGCCTGTGCATCG' Length=20 Time Taken: 0.000326s Comparisons=1015
+
+Between S6 & S3:
+  Method: Dynamic Programming
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  LCS (DP): 'CTATTTGAGCCTTCGATAA' Length=19 Time Taken: 0.000441s Comparisons=1400
+
+Between S6 & S4:
+  Method: Dynamic Programming
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  LCS (DP): 'AGGTTTGCAATGTCGATCAAC' Length=21 Time Taken: 0.000353s Comparisons=1120
+
+Between S6 & S5:
+  Method: Dynamic Programming
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  LCS (DP): 'AGGGTTTGACCGCGAAC' Length=17 Time Taken: 0.000276s Comparisons=875
+
+
+Brute Force Results:
+Between S1 & S2:
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S1 & S3:
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S1 & S4:
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S1 & S5:
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S1 & S6:
+  Original Sequences: S1='GTGTAATTGATGGGGCCCTCATCAATTTATC', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S2 & S1:
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S2 & S3:
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S2 & S4:
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S2 & S5:
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S2 & S6:
+  Original Sequences: S2='ATTCATACGGGTGTGCTCTCGTGCATCTG', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S3 & S1:
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S3 & S2:
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S3 & S4:
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S3 & S5:
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S3 & S6:
+  Original Sequences: S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S4 & S1:
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S4 & S2:
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S4 & S3:
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S4 & S5:
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S4 & S6:
+  Original Sequences: S4='AGGTATTGCATATAAAGATCTGACTGCATGAC', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S5 & S1:
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S5 & S2:
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S5 & S3:
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S5 & S4:
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S5 & S6:
+  Original Sequences: S5='TAGGGTTATGACCGCGGGGAGGGAC', S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S6 & S1:
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S1='GTGTAATTGATGGGGCCCTCATCAATTTATC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S6 & S2:
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S2='ATTCATACGGGTGTGCTCTCGTGCATCTG'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S6 & S3:
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S3='TCTAAAATTTAATGTATTGACCCTTCAGTAGGGTTTTGAA'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S6 & S4:
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S4='AGGTATTGCATATAAAGATCTGACTGCATGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
+Between S6 & S5:
+  Original Sequences: S6='AGCTGGATTCGTCCGAGCCAATGTGCGATCAACCG', S5='TAGGGTTATGACCGCGGGGAGGGAC'
+  Brute Force calculation exceeded the timeout of 120 seconds and was terminated.
+
